@@ -1,0 +1,18 @@
+
+
+
+
+class CharDemo1 {
+
+	public static void main(String[] args) {
+
+		char ch ;
+		ch = 90 ;
+		
+		System.out.println("char = " + ch);
+		System.out.println("char = " + ch + 1);
+	
+	}
+
+}
+
