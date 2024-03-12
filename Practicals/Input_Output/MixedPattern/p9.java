@@ -10,12 +10,13 @@ class s9 {
 	
 		char ch = (char)(64+rows);	
 		for( int i = 1 ; i <= rows ; i++ ){ 
+		char mk = ch ;	
 			int num = 1 ;
 			for( int j = 1 ; j <= rows-i+1 ; j++ ){
 				if( i % 2 == 0 ){
-					System.out.print( ch-- + "\t" );
+					System.out.print( mk-- + "\t" );
 				} else {
-					System.out.print( num+ + "\t" );
+					System.out.print( num++ + "\t" );
 				}
 			}
 			ch-- ; 
